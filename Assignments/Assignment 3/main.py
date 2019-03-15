@@ -1,49 +1,54 @@
+#Author: Nawal Ahmed
+#Concepts of Programming Languages
+#Assignment 3
+
+#initialize a class called Student
 class Student:
+    #defining a constructor
     def __init__(self, name, studentNumber, numberOfcourses):
+        #the keyword self is similar to the keyboard this in Java
+        #refers to an object the function is running on
         self.name = name
         self.studentNumber = studentNumber
         self.numberOfcourses = numberOfcourses
 
+    #using setter like in Java
     def setName(self, name):
         self.name = name
-
     def setNumber(self, studentNumber):
         self.studentNumber = studentNumber
-
     def setCourses(self, numberOfcourses):
         self.numberOfcourses = numberOfcourses
 
+    #using getter like in Java
     def getName(self):
         return self.name
-
     def getNumber(self):
         return self.studentNumber
-
     def getcourses(self):
         return self.numberOfcourses
 
 
-#tesing Student class
+#defining the main function
 def main():
     #request the corresponding data from input
-    name = input("Enter name: ")
-    studentNumber = input("Enter studentNumber: ")
-    numberOfcourses = int(input("Enter studentNumber of numberOfcourses in this semester: "))
+    name = input("Name: ")
+    studentNumber = int(input("Student Number: "))
+    numberOfcourses = int(input("Number of Courses: "))
 
-    #create a Student object.
+    #object called student
     student = Student(name, studentNumber, numberOfcourses)
 
-    # invoke a method to change the value of one of its attributes of the object
-    # Changing the studentNumber of numberOfcourses by 10
-    #Changing name to jerry
-    student.setCourses(10)
-    student.setName("Jerry")
+    #method that overrides the value of the attribute
+    student.setName("John Smith (Override)") #name changes to John Smith
 
-    #invoke a method to that displays the value of each attribute
+    #display attribute values
+    print()
     print("Name:",student.getName())
-    print("studentNumber:",student.getNumber())
-    print("studentNumber of numberOfcourses:",student.getcourses())
+    print("Student Number:",student.getNumber())
+    print("Number of Courses:",student.getcourses())
 
 
+#typical main function in python
 if __name__ == '__main__':
-main()
+    main()
