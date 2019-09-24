@@ -1,4 +1,4 @@
-# Concepts of Programming Languages
+# Concepts of Programming Languages Class
 
 This was meant to be a full collection of all of the assignments and projects I have completed for this class, but the hard drive that had all the work for this class and several others, crashed (It was 9 years old). All of the work was stored locally, and there are no other backups online. I know - rookie mistake.
 
