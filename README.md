@@ -4,4 +4,6 @@ This was meant to be a full collection of all of the assignments and projects I 
 
 This is the only assignment that I had from a USB drive. :(
 
+The textbook we used is [Concepts of Programming Languages by Robert Sebesta](https://www.amazon.com/Concepts-Programming-Languages-Robert-Sebesta/dp/013394302X)
+
 It is public so future students can use it to understand assignments they may have trouble on, but please do not use it to cheat.
